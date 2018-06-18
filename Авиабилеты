@@ -1,0 +1,15 @@
+## Установка Шаблонного проекта Aviasales Template
+
+### Добавление зависимостей
+
+Чтобы добавить модуль в проект, используйте gradle:
+
+```gradle
+repositories {
+    maven { url 'http://android.aviasales.ru/repositories/' }
+}
+
+dependencies {
+    compile 'ru.aviasales.template:aviasalesSdkTemplate:2.1.12'
+}
+```
